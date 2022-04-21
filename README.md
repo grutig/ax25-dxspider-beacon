@@ -7,7 +7,7 @@ The second one uses this software to run a beacon to broadcast DxCluster spots a
 The beacon responds to commands sent over UI (connectionless) packets:
 
  - DXCLUSTER HELP broadcast a how-to-use message
- - DXCLUSTER <filter> allow you to set bandwidth and mode filters
+ - DXCLUSTER \<filter\> allow you to set bandwidth and mode filters
  
 Beacon remains active for 10 minutes after the last command.
 During this time windows it will broadcast all the spots that satify the filters selected.
